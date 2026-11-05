@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TFT Meta Helper</title>
+  <style>
+    body { margin: 0; font-family: system-ui, Segoe UI, sans-serif; background: #12141a; color: #e8e8ec; line-height: 1.6; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 20px; }
+    h1 { font-size: 2.2rem; margin: 0 0 4px; color: #f0c454; }
+    .tag { color: #9aa0ad; margin: 0 0 32px; }
+    h2 { font-size: 1.2rem; margin-top: 36px; color: #f0c454; }
+    ul { padding-left: 20px; }
+    .card { background: #1c1f27; border: 1px solid #2a2e39; border-radius: 10px; padding: 16px 20px; margin: 12px 0; }
+    footer { margin-top: 48px; font-size: .8rem; color: #7d8391; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>TFT Meta Helper</h1>
+  <p class="tag">A free Teamfight Tactics companion app for Overwolf. Status: in development.</p>
+
+  <h2>Features</h2>
+  <div class="card"><b>Meta comps.</b> Current team compositions with units, items and positioning, aggregated from public high-elo ranked matches. Browse several comps and pick the one you want to play.</div>
+  <div class="card"><b>In-game overlay.</b> Shows the comp you picked before the match and which of its units you already own. Units of that comp are highlighted when they appear in your own shop.</div>
+
+  <h2>Data &amp; privacy</h2>
+  <ul>
+    <li>Meta statistics are computed on our server with the Riot Games API (TFT-LEAGUE-V1, TFT-SUMMONER-V1, ACCOUNT-V1, TFT-MATCH-V1). We publish only aggregated, anonymous data. The API key never leaves the server.</li>
+    <li>In-game state comes from the Overwolf Game Events API.</li>
+  </ul>
+
+  <h2>What it does not do</h2>
+  <ul>
+    <li>It does not track or show opponents' boards, plays or stats.</li>
+    <li>It does not show lobby or player aggregate stats or augment win rates.</li>
+    <li>It does not give real-time "do this now" instructions or automate input.</li>
+    <li>It has no ads in the game client and is free for everyone.</li>
+  </ul>
+
+  <footer>
+    TFT Meta Helper isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
+  </footer>
+</main>
+</body>
+</html>
